@@ -4,7 +4,7 @@
 In this assignment, you will use a 2D concept art piece as inspiration to create a 3D Stylized scene in Unity. This will give you the opportunity to explore stylized graphics techniques alongside non-photo-realistic (NPR) real-time rendering workflows in Unity.
 
 ## Luke Kwon
-| <img width="480" height="270" alt="VG-RP-Stuck-In-2D-Kirby-RebeccaB-N_480x270" src="https://github.com/user-attachments/assets/c9231c17-118e-4e92-913f-a251aa5b4c6f" /> | <img width="500px" src="https://github.com/CIS-566-Fall-2023/hw04-stylization/Korbers.jpg" /> |
+| <img width="480" height="270" alt="VG-RP-Stuck-In-2D-Kirby-RebeccaB-N_480x270" src="https://github.com/user-attachments/assets/c9231c17-118e-4e92-913f-a251aa5b4c6f" /> | <img width="500px" src="https://github.com/CIS-566-Fall-2023/hw04-stylization/Korbers.gif" /> |
 |:--:|:--:|
 | *2D Concept Illustration* | *3D Stylized Scene in Unity* |
 
