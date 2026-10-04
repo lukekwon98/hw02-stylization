@@ -8,8 +8,7 @@ In this assignment, you will use a 2D concept art piece as inspiration to create
 |:--:|:--:|
 | *2D Concept Illustration* | *3D Stylized Scene in Unity* |
 
-<img width="500px" src="https://github.com/CIS-566-Fall-2023/hw04-stylization/Korbers.mp4" />
-
+<img width="500px" src="https://github.com/lukekwon98/hw02-stylization/blob/main/Korbers.mp4?raw=true" />
 
 | <img width="500px" src=https://github.com/CIS-566-Fall-2023/hw04-stylization/assets/72320867/755780f1-8b8c-47e1-b14f-3a619f92fd3a/>  | <img width="500px" src=https://github.com/CIS-566-Fall-2023/hw04-stylization/assets/72320867/70550c09-ba75-4d10-9b30-60874179ad10/> |
 |:--:|:--:|
