@@ -8,8 +8,8 @@ In this assignment, you will use a 2D concept art piece as inspiration to create
 |:--:|:--:|
 | *2D Concept Illustration* | *3D Stylized Scene in Unity* |
 
-<img width="500px" src="https://github.com/lukekwon98/hw02-stylization/blob/main/Korbers.png?raw=true" />
-https://github.com/lukekwon98/hw02-stylization/blob/main/Korbers.mp4
+<img width="1080px" src="https://github.com/lukekwon98/hw02-stylization/blob/main/Korbers.gif?raw=true" />
+
 
 ### HW Task List:
 1. Picking a Piece of Concept Art
