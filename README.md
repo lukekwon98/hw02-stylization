@@ -10,6 +10,26 @@ In this assignment, you will use a 2D concept art piece as inspiration to create
 
 <img width="1080px" src="https://github.com/lukekwon98/hw02-stylization/blob/main/Korbers.gif?raw=true" />
 
+### 1. Concept Art Reference
+* **Artist/Source:** Watchmojo, https://www.watchmojo.com/articles/stuck-in-2d-kirby
+* **Models.Source:** Dante Rossi - Zion , https://sketchfab.com/3d-models/kirby-fofinho-79bab9e6d16c43aebf04a70abd0c7dfd
+
+### 2. Surface Shaders
+* **Halftone Toon (Kirby):** Stepped toon shader featuring custom halftone pattern shadows mapped to a stylized purple tint via a Lerp node.
+* **Animated Rainbow (Star):** Object UVs combined with Time and Fraction to read a custom Sample Gradient. Time is passed through a Floor node to create a stepped, stop-motion framerate.
+
+### 3. Post-Process Outlines
+* **Animated Edge (Normals):** Animated outer silhouettes. A Gradient Noise node offsets screen UVs, stepped with a Floor node and clamped via Remap to outline geometry without detaching.
+* **Edges (Depth and Normals):** Static lines using undistorted screen UVs.
+
+### 4. Full Screen Post-Process
+* **Vignette:** Built by taking the Distance between the Screen Position and the screen's center. This radial gradient is passed through a Smoothstep node to control the falloff, and used as the T value in a Lerp node to blend a dark tint over the scene's base color.
+
+### 5. Scene Composition & Camera
+* **Layout:** Four Kirby models of different colors surrounding a central hero Star.
+
+### 6. Interactivity
+* **Mechanic:** Pressing `Spacebar` makes the 4 Kirby's colors rotate around.
 
 ### HW Task List:
 1. Picking a Piece of Concept Art
