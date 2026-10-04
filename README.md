@@ -15,15 +15,15 @@ In this assignment, you will use a 2D concept art piece as inspiration to create
 * **Models/Source:** Kirby: Dante Rossi - Zion , https://sketchfab.com/3d-models/kirby-fofinho-79bab9e6d16c43aebf04a70abd0c7dfd / Star: gaelinix, https://sketchfab.com/3d-models/super-mario-star-cd988ff787734dec955cd76e8acdf327 
 
 ### 2. Surface Shaders
-* **Halftone Toon (Kirby):** Stepped toon shader featuring custom halftone pattern shadows mapped to a stylized purple tint via a Lerp node.
-* **Animated Rainbow (Star):** Object UVs combined with Time and Fraction to read a custom Sample Gradient. Time is passed through a Floor node to create a stepped, stop-motion framerate.
+* **Improved Surface Shader (Kirby):** Stepped toon shader featuring custom halftone pattern shadows mapped to a stylized purple tint via a Lerp node. Also added rim highlights and multiple light support.
+* **Special Surface Shader (Star):** Object UVs combined with Time and Fraction to read a custom Sample Gradient. Time is passed through a Floor node to create a stepped, stop-motion framerate.
 
-### 3. Post-Process Outlines
-* **Animated Edge (Normals):** Animated outer silhouettes. A Gradient Noise node offsets screen UVs, stepped with a Floor node and clamped via Remap to outline geometry without detaching.
+### 3. Outlines
 * **Edges (Depth and Normals):** Static lines using undistorted screen UVs.
+* **Animated Edge (Normals):** Animated outer silhouettes. A Gradient Noise node offsets screen UVs, stepped with a Floor node and clamped via Remap to outline geometry without detaching.
 
 ### 4. Full Screen Post-Process
-* **Vignette:** Built by taking the Distance between the Screen Position and the screen's center. This radial gradient is passed through a Smoothstep node to control the falloff, and used as the T value in a Lerp node to blend a dark tint over the scene's base color.
+* **Vignette:** Built by taking the Distance between the Screen Position and the screen's center. This gradient is passed through a Smoothstep node to control the falloff, and used as the T value in a Lerp node to blend a dark tint over the scene's base color.
 
 ### 5. Scene Composition & Camera
 * **Layout:** Four Kirby models of different colors surrounding a central hero Star.
