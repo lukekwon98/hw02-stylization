@@ -11,8 +11,8 @@ In this assignment, you will use a 2D concept art piece as inspiration to create
 <img width="1080px" src="https://github.com/lukekwon98/hw02-stylization/blob/main/Korbers.gif?raw=true" />
 
 ### 1. Concept Art Reference
-* **Artist/Source:** Watchmojo, https://www.watchmojo.com/articles/stuck-in-2d-kirby
-* **Models.Source:** Dante Rossi - Zion , https://sketchfab.com/3d-models/kirby-fofinho-79bab9e6d16c43aebf04a70abd0c7dfd
+* **Concept Art/Source:** Watchmojo, https://www.watchmojo.com/articles/stuck-in-2d-kirby
+* **Models.Source:** Kirby: Dante Rossi - Zion , https://sketchfab.com/3d-models/kirby-fofinho-79bab9e6d16c43aebf04a70abd0c7dfd / Star: gaelinix, https://sketchfab.com/3d-models/super-mario-star-cd988ff787734dec955cd76e8acdf327 
 
 ### 2. Surface Shaders
 * **Halftone Toon (Kirby):** Stepped toon shader featuring custom halftone pattern shadows mapped to a stylized purple tint via a Lerp node.
