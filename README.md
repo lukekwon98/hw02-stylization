@@ -29,7 +29,7 @@ In this assignment, you will use a 2D concept art piece as inspiration to create
 * **Layout:** Four Kirby models of different colors surrounding a central hero Star.
 
 ### 6. Interactivity
-* **Mechanic:** Pressing `Spacebar` makes the 4 Kirby's colors rotate around.
+* **Mechanic:** Pressing Spacebar makes the 4 Kirby's colors rotate around.
 
 ### HW Task List:
 1. Picking a Piece of Concept Art
